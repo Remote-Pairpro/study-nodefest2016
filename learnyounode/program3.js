@@ -8,5 +8,5 @@ const buf = fs.readFileSync(path);
 const text = buf.toString();
 
 // デリミタに改行指定して分割
-const count =  text.split("\n").length - 1;
+const count = text.split("\n").length - 1;
 console.log(count);
