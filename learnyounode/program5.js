@@ -9,10 +9,8 @@ const fixExt = "." + ext;
 
 // 指定されたPathのディレクトリ内のオブジェクトを回す。
 fs.readdir(dirPath, function (err, list) {
-    list.forEach(function(v,i,l) {
+    list.forEach(name => {
         // 文字の末尾が拡張子と一致すれば。
-        if (v.endsWith(fixExt)) {
-            console.log(v); 
-        }
+        if (name.endsWith(fixExt)) console.log(name); 
     });
 });
