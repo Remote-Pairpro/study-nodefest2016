@@ -1,4 +1,4 @@
-# Study Nodefest 2016
+# Study Nodefest 2016 (Results)
 
 ## What's this ?
 
